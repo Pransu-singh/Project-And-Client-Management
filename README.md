@@ -1,200 +1,154 @@
-🚀 Project & Client Management System
-Full Stack Web Application with Secure Admin Panel
+# 🚀 Project & Client Management System  
+### Full Stack Web Application with Admin Panel
 
-This is a full-stack web application built using Python (Flask).
-The project includes a modern landing page and a secure admin panel that allows administrators to manage projects, clients, contact form submissions, and newsletter subscribers.
+This repository contains a **full-stack web application** built using **Python and Flask**.  
+The project includes a modern landing page and a **secure admin panel** that enables administrators to manage projects, clients, contact form submissions, and newsletter subscribers.
 
-The application is developed according to the given assignment requirements, focusing on functionality, usability, security, and clean structure.
+The application has been developed strictly according to the assignment requirements, with a strong focus on **functionality, usability, security, and clean project structure**.
 
-🔗 Submission Links
+---
 
-Github Link:
-https://github.com/Pransu-singh/Project-And-Client-Management
+## 🔗 Submission Links
 
-Deployment Link:
-https://your-project-name.onrender.com
+**Github Repository**  
+https://github.com/Pransu-singh/Project-And-Client-Management  
 
-Description Document (Google Drive Link):
-https://drive.google.com/file/d/your-file-id/view
+**Live Deployment**  
+https://your-project-name.onrender.com  
 
-🎯 Project Objective
+**Description Document (Google Drive)**  
+https://drive.google.com/file/d/your-file-id/view  
 
-The goal of this project is to demonstrate practical full-stack development skills by building a real-world application that includes:
+---
 
-Backend and frontend integration
+## 🎯 Project Objective
 
-Secure admin authentication
+The objective of this project is to demonstrate **practical full-stack development skills** by building a real-world web application that includes:
 
-Dynamic data handling
+- Seamless backend and frontend integration  
+- Secure admin authentication and authorization  
+- Dynamic data handling using a database  
+- Proper database management  
+- Deployment on a cloud platform using a free-tier service  
 
-Database management
+---
 
-Cloud deployment
+## 🌐 Landing Page Features
 
-🌐 Landing Page Features
+All landing page content is **dynamically fetched from the backend**.
 
-All landing page content is fetched dynamically from the backend.
+### 📌 Our Projects Section
+- Displays project image  
+- Displays project name  
+- Displays project description  
+- Includes a dummy **Read More** button (non-functional as required)
 
-Our Projects Section
+### 📌 Happy Clients Section
+- Displays client image  
+- Displays client name  
+- Displays client designation  
+- Displays client description  
 
-Project image
+### 📌 Contact Form
+- Accepts full name  
+- Accepts email address  
+- Accepts mobile number  
+- Accepts city  
+- Submitted data is stored in the database and visible in the admin panel  
 
-Project name
+### 📌 Newsletter Subscription
+- Allows users to subscribe using their email address  
+- Subscribed emails are stored in the database  
+- Emails can be viewed from the admin panel  
 
-Project description
+---
 
-Dummy Read More button (non-functional as required)
+## 🔐 Admin Panel & Security
 
-Happy Clients Section
+The application includes a **secure admin panel** protected by authentication.
 
-Client image
+- An **Admin Login button is available in the footer** of the website  
+- Only authenticated users can access the admin dashboard  
+- Unauthorized users cannot manage or view protected data  
 
-Client name
+### 🛠 Admin Capabilities
+- Add and manage projects  
+- Add and manage client details  
+- View contact form submissions  
+- View newsletter subscribers  
 
-Client designation
+### 🔑 Admin Routes
+- `/login` – Admin login page  
+- `/admin` – Admin dashboard  
 
-Client description
+---
 
-Contact Form
+## 🧰 Technology Stack
 
-Full name
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+- Jinja Templates  
 
-Email address
+### Backend
+- Python  
+- Flask Framework  
 
-Mobile number
+### Database
+- SQLite (`site.db`)  
 
-City
+### Deployment
+- Render (Free Tier)  
 
-Submitted data is stored in the database and visible in the admin panel
+---
 
-Newsletter Subscription
 
-Email subscription field
+---
 
-Email addresses stored in database
+## ⚙️ How to Run the Project Locally
 
-Viewable in admin panel
-
-🔐 Admin Panel & Security
-
-The website includes an Admin Login button in the footer for security
-
-Only authenticated users can access the admin dashboard
-
-Unauthorized users cannot manage or view protected data
-
-Admin Capabilities
-
-Add and manage projects
-
-Add and manage client details
-
-View contact form submissions
-
-View newsletter subscribers
-
-Admin Routes
-
-/login → Admin login page
-
-/admin → Admin dashboard
-
-🧰 Technology Stack
-
-Frontend
-
-HTML
-
-CSS
-
-JavaScript
-
-Jinja Templates
-
-Backend
-
-Python
-
-Flask Framework
-
-Database
-
-SQLite (site.db)
-
-Deployment
-
-Render (Free Tier)
-
-📂 Project Structure
-
-(The structure below matches the actual repository and is shown clearly for evaluation.)
-
-website_project
-│
-├── app.py                     Main Flask application
-├── requirements.txt           Project dependencies
-├── README.md                  Project documentation
-│
-├── instance
-│   └── site.db                SQLite database (included for evaluation)
-│
-├── static
-│   ├── css
-│   │   └── style.css
-│   ├── js
-│   └── uploads                Project and client images
-│
-└── templates
-    ├── index.html              Landing page
-    ├── login.html              Admin login page
-    └── admin.html              Admin panel
-
-⚙️ How to Run the Project Locally
-
-Install all required dependencies using requirements.txt
-
-Run the Flask application using Python
-
-Open the application in a web browser at http://127.0.0.1:5000
+1. Install all required dependencies using `requirements.txt`  
+2. Run the Flask application using Python  
+3. Open the application in a web browser at  
+   `http://127.0.0.1:5000`  
 
 No additional configuration is required for local testing.
 
-🗄 Database Information
+---
 
-SQLite database file (site.db) is included for evaluation purposes
+## 🗄 Database Information
+
+The SQLite database file (`site.db`) is included in the repository **for evaluation purposes**.
 
 The database contains:
+- Admin login credentials  
+- Sample projects  
+- Sample clients  
+- Contact form submissions  
+- Newsletter subscribers  
 
-Admin login credentials
+Including the database allows evaluators to **test all features immediately** without manual setup.
 
-Sample projects
+---
 
-Sample clients
+## 📊 Evaluation Criteria Coverage
 
-Contact form submissions
+- **Functionality:** All required features are implemented and working  
+- **Code Quality:** Clean, readable, and well-structured code  
+- **Design:** Matches reference layout and usability expectations  
+- **Security:** Admin authentication with restricted access  
+- **Deployment:** Live and publicly accessible application  
 
-Newsletter subscribers
+---
 
-Including the database allows evaluators to directly test all features without manual setup.
+## 🏁 Conclusion
 
-📊 Evaluation Criteria Coverage
+This project demonstrates real-world full-stack development skills, including backend logic, database handling, authentication, user interface development, and cloud deployment.  
+It follows clean coding practices and delivers a complete, functional solution as required.
 
-Functionality: All required features implemented
+---
 
-Code Quality: Clean, readable, and structured code
+## 👨‍💻 Developed By
 
-Design: Matches reference layout and usability expectations
-
-Security: Admin authentication with footer login access
-
-Deployment: Live and publicly accessible application
-
-🏁 Conclusion
-
-This project demonstrates real-world full-stack development skills, including backend logic, database handling, authentication, UI development, and deployment.
-It follows clean coding practices and provides a complete, working solution as required.
-
-👨‍💻 Developed By
-
-Pransu Singh
-Full Stack Developer
+**Pransu Singh**  
